@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Layout with Bootstrap</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="container-header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <h1 class="navbar-brand" id="name">Alicia Martinez</h1>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">About</a> 
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a> 
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container main-content">
+                <h1 class="display-4" id="about-me">Portfolio</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="gallery-set">
+                            <img src="assets/images/birds.jpg" class="img-fluid" id="img1" alt="Birds Flying">
+                            <h5 class="text-img">Flying Birds</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="gallery-set">
+                            <img src="assets/images/ducks.jpg" class="img-fluid" id="img2" alt="Ducklings">
+                            <h5 class="text-img">Ducklings</h5>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="gallery-set">
+                            <img src="assets/images/niagara.jpg" class="img-fluid" id="img3" alt="Niagara Falls">
+                            <h5 class="text-img">Niagara Falls</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="gallery-set">
+                            <img src="assets/images/skyline.jpg" class="img-fluid" id="img4" alt="New York Skyline">
+                            <h5 class="text-img">New York Skyline</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="gallery-set">
+                            <img src="assets/images/maelstrom.jpg" class="img-fluid" id="img5" alt="Saturn Storm">
+                            <h5 class="text-img">Saturn Storm</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-8"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="fixed-bottom" id="pg-footer">
+                    <p class="text-center">Copyright&copy; Alicia Martinez 2018</p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
